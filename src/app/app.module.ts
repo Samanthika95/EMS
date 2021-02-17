@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './nav/nav.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+
   ],
   imports: [
     BrowserModule,
